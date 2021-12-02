@@ -1,0 +1,415 @@
+/* main-Banner */
+.tech-diversity .main-banner {
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.tech-diversity .main-banner .title h1 {
+	font-size: 3em;
+	color: #bc658d;
+	font-weight: 800;
+	padding-top: 60px;
+}
+.tech-diversity .main-banner .title p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	font-weight: 500;
+}
+.tech-diversity .main-banner .title p.desc {
+	font-style: italic;
+	color: #00838f;
+}
+.tech-diversity .main-banner .title .read-more {
+	padding: 10px 20px;
+	background-color: #2c333a;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.tech-diversity .main-banner .banner-img {
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+}
+.tech-diversity .main-banner .banner-img img {
+	width: 100%;
+}
+
+/* Stats Milestones */
+.tech-diversity .stats {
+	background-color: #00838f;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+.tech-diversity .stats .declaration {
+	font-weight: 600;
+	font-weight: 1.4em;
+	font-style: italic;
+}
+.tech-diversity .stats .milestones {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+.tech-diversity .stats .milestones .stats-box {
+	width: 45%;
+	margin-top: 40px;
+}
+.tech-diversity .stats .milestones .stats-num {
+	font-size: 45px;
+	font-weight: 400;
+}
+
+/* Overview */
+.tech-diversity .description .overview {
+	margin-bottom: 50px;
+}
+.tech-diversity .description .overview .read-more {
+	padding: 10px 20px;
+	background-color: #bc658d;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.tech-diversity .description .overview .read-more:hover {
+	background-color: #00838f;
+	color: #fff;
+	transition: 0.4s ease-in;
+}
+.tech-diversity .description .takeaway-list .list img {
+	border: 1px solid #00838f;
+	margin-right: 15px;
+	border-radius: 70px;
+	width: 45px;
+	height: 45px;
+	padding: 8px;
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 55px;
+	background-color: #fff;
+}
+.tech-diversity .description .takeaway-list .list h3 {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: 400;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.tech-diversity .description .takeaway-list .list {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 20px 10px 20px 50px;
+	min-height: 120px;
+	position: relative;
+	margin-top: 10px;
+}
+.tech-diversity .description .takeaway-list .list .color-tag {
+	width: 60px;
+	height: 100%;
+	background-color: #8796a0;
+	position: absolute;
+	left: 0;
+}
+.tech-diversity .description .terms {
+	margin-top: 50px;
+	font-style: italic;
+	font-weight: 500;
+}
+.tech-diversity .description .terms p {
+	color: #bc658d;
+	font-weight: 700;
+}
+
+.tech-diversity .description .read-more {
+	padding: 10px 20px;
+	background-color: #2c333a;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+/* Sponsors */
+.tech-diversity .sponsors h2 {
+	text-align: center !important;
+}
+.tech-diversity .sponsors .logos img {
+	margin: 30px auto 10px auto;
+	display: block;
+}
+
+/* ===============================
+Kids Can Code
+================================== */
+.kids-can-code .main-banner {
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+.kids-can-code .main-banner h1 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #00838f;
+}
+.kids-can-code .main-banner h2 {
+	font-size: 2em;
+	font-weight: 700;
+	color: #bc658d;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.kids-can-code .main-banner ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 1em;
+	color: #2c333a;
+}
+.kids-can-code .main-banner ul li {
+	margin-left: 30px;
+	margin-top: 10px;
+	position: relative;
+}
+.kids-can-code .main-banner ul li::before {
+	content: "\272A";
+	position: absolute;
+	color: #bc658d;
+	left: -30px;
+}
+.kids-can-code .main-banner form {
+	margin-top: 30px;
+}
+.kids-can-code .main-banner form input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #a0b0b9;
+	background-color: transparent;
+}
+.kids-can-code .main-banner form input:focus {
+	border-color: #2c333a;
+	transition: 0.4s ease-in;
+}
+.kids-can-code .main-banner form button,
+.kids-can-code .main-banner .schedule-call {
+	border: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #00838f;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.kids-can-code select {
+	padding: 10px 12px;
+	font-size: 14px;
+	line-height: 1.43;
+	color: inherit;
+	display: block;
+	width: 100%;
+	font-family: inherit;
+	border: 1px solid #c4cdd5;
+	border-radius: 4px;
+	outline: none;
+	background-color: #ffffff;
+	box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+	transition: border-color ease-in-out 0.3s, box-shadow ease-in-out 0.3s;
+}
+.kids-can-code .main-banner .book-img1 img {
+	width: 100%;
+}
+.kids-can-code .main-banner .book-img2 {
+	display: none;
+}
+.kids-can-code .main-banner a.schedule-call {
+	background-color: #bc658d;
+	transition: 0.4s ease-out;
+	margin-top: 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.kids-can-code .main-banner .schedule-call:hover {
+	background-color: #00838f;
+}
+
+.kids-can-code .success {
+	margin-top: 110px;
+	margin-bottom: 30px;
+}
+.kids-can-code iframe {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 230px;
+}
+.kids-can-code .countdown {
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+	background-color: #bc658d;
+	color: #ffffff;
+}
+.kids-can-code .countdown .finger {
+	animation: movedownup 1s infinite;
+	position: relative;
+}
+@keyframes movedownup {
+	from {
+		top: 0px;
+	}
+	to {
+		top: 10px;
+	}
+}
+
+/* ===============================
+Message Page
+================================== */
+.kids-can-code .signup__header {
+	margin-bottom: 40px;
+}
+.kids-can-code .signup__header .signup__header__text {
+	font-size: 30px;
+	font-weight: 800;
+}
+.kids-can-code .signup__list .sub_header {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.kids-can-code .signup__list .numbered-list {
+	margin-top: 20px;
+}
+.kids-can-code .signup__list .numbered-list li {
+	margin-bottom: 10px;
+}
+.kids-can-code .success {
+	max-width: 400px;
+	margin: 20px auto;
+}
+/* ===============================
+Media Query
+================================== */
+@media only screen and (min-width: 768px) {
+	.tech-diversity .main-banner {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		padding-top: 150px;
+	}
+	.tech-diversity .main-banner .title h1 {
+		padding-top: 10px;
+	}
+	.tech-diversity section.main-banner {
+		height: 70vh;
+		padding-bottom: 0px !important;
+	}
+	.tech-diversity .description .overview {
+		max-width: 500px;
+	}
+	.tech-diversity .description .takeaway-list {
+		margin-top: 50px;
+	}
+	.tech-diversity .description .takeaway-list .takeaway {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.tech-diversity .description .takeaway-list .takeaway .list {
+		width: 48%;
+	}
+
+	/* Stats Milestones */
+	.tech-diversity .stats .milestones .stats-box {
+		width: 30%;
+	}
+
+	.kids-can-code iframe {
+		height: 430px;
+	}
+	.kids-can-code .countdown {
+		font-size: 2em;
+	}
+
+	/* ===============================
+	Message Page
+	================================== */
+	.kids-can-code .success {
+		max-width: 400px;
+		margin: 20px auto;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	/* Stats Milestones */
+	.tech-diversity .stats .milestones .stats-box {
+		width: 20%;
+	}
+
+	/* ===============================
+	Kids Can Code
+	================================== */
+	.kids-can-code .main-banner .book-img1 {
+		display: none;
+	}
+
+	.kids-can-code .main-banner form {
+		max-width: 350px;
+	}
+	.kids-can-code .main-banner .book-img2 {
+		display: block;
+		position: absolute;
+		top: 150px;
+		z-index: -2;
+		right: -80px;
+	}
+	.kids-can-code .main-banner .book-img2 img {
+		width: 900px;
+	}
+	.kids-can-code .main-banner h1 {
+		margin-top: 30px;
+	}
+	.kids-can-code .main-banner .title {
+		width: 500px;
+		z-index: 100;
+	}
+
+	.kids-can-code iframe {
+		height: 430px;
+	}
+}
+@media only screen and (min-width: 1112px) {
+	.tech-diversity .description {
+		display: flex;
+		justify-content: space-between;
+	}
+	.tech-diversity .description .overview {
+		max-width: 40%;
+		padding-right: 40px;
+	}
+	.tech-diversity .description .takeaway-list {
+		margin-top: 0px;
+	}
+
+	.kids-can-code iframe {
+		height: 450px;
+		width: 720px;
+	}
+	.kids-can-code .countdown {
+		width: 720px;
+		font-size: 3em;
+	}
+}
