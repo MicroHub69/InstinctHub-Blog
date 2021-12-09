@@ -267,6 +267,7 @@ FEATURED POSTS
 /* ._values {
   margin: 80px 0;
 } */
+
 .learn {
   text-align: center;
   height: auto;
@@ -294,4 +295,46 @@ FEATURED POSTS
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+/* =======
+DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
+============== */
+@media (min-width: 700px) {
+  .new_banner {
+    position: static;
+    height: 460px;
+    margin-top: 70px;
+    background: url(../../images/Ipad\ dummy.png) no-repeat center center/cover;
+  }
+  .new_banner h1 {
+    font-size: 40px;
+    margin: 0px 100px 20px 100px;
+  }
+  .new_banner p {
+    font-size: 14px;
+    margin: 0 220px;
+  }
+  .email_field {
+    display: block;
+    padding: 20px 75px;
+  }
+  .email_field label {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .enter_email {
+    width: 70%;
+    height: 220px;
+  }
+  .input_on_desktop {
+    display: flex;
+  }
+  .enter_mail {
+    border-radius: 5px 0px 0px 5px;
+  }
+  .email_field button {
+    width: 40%;
+    border-radius: 0px 5px 5px 0px;
+  }
 }
