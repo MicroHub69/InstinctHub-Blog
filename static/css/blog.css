@@ -22,17 +22,19 @@ body {
   height: 505px;
   position: relative;
   background: url(../../images/dummy-banner.png) no-repeat center center/cover;
-  background: var(--banner-bg);
+  background-color: var(--banner-bg);
 }
 .new_banner h1 {
   font-weight: 800;
   font-size: 30px;
   line-height: 45px;
+  color: var(--color-white);
   text-align: center;
   margin: 16px 25px;
   text-transform: capitalize;
 }
 .new_banner p {
+  color: var(--color-white);
   font-weight: 600;
   font-size: 16px;
   line-height: 23px;
@@ -258,5 +260,38 @@ FEATURED POSTS
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+/* OUR CORE VALUES */
+/* ._values {
+  margin: 80px 0;
+} */
+.learn {
+  text-align: center;
+  height: auto;
+  margin-top: 80px;
+  padding: 0px 50px 10px 50px;
+  background: var(--color-white);
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.14), 0px 2px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+}
+.learn img {
+  width: 80px;
+  position: relative;
+  top: -30px;
+  height: 80px;
+  object-fit: cover;
+}
+.learn h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.learn p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
   letter-spacing: 0.02em;
 }
