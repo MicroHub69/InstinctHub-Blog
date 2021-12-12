@@ -299,7 +299,7 @@ FEATURED POSTS
 
 /* BLOG POST */
 .blog_posts {
-  padding: 0 15px;
+  padding: 50px 15px 25px 15px;
 }
 .blog_posts h2 {
   font-weight: bold;
@@ -349,6 +349,7 @@ FEATURED POSTS
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+  margin-bottom: 30px;
 }
 .blog_img {
   width: 100%;
@@ -435,6 +436,9 @@ FOOTER
 .footer_wrap hr {
   border: 2px solid rgba(0, 131, 143, 0.2);
 }
+.quick_links img {
+  margin-right: 10px;
+}
 .quick_links li {
   list-style: none;
   font-weight: 600;
@@ -448,14 +452,91 @@ FOOTER
   align-items: center;
 }
 .contact_thr {
-  margin: 20px 0;
+  margin: 50px 0 20px 0;
 }
 .contact_thr img {
   padding: 0 10px;
 }
-/* =======
+.privacy a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.terms_ {
+  margin-right: 20px;
+}
+.crumb_::before {
+  content: "|";
+  margin-right: 10px;
+}
+.foot_label {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #eeeeee;
+  background: #333333;
+}
+
+.evidences {
+  padding: 0 15px;
+}
+.evidences h1 {
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.01em;
+}
+.reviews_ {
+  display: flex;
+  margin: 30px 0;
+}
+.reviews_ h4 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 5px;
+  letter-spacing: 0.01em;
+}
+.reviews_ img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.splict {
+  position: relative;
+  left: -10px;
+}
+.splict1 {
+  position: relative;
+  left: -15px;
+}
+.splict2 {
+  position: relative;
+  left: -20px;
+}
+.splict3 {
+  position: relative;
+  left: -25px;
+}
+.splict4 {
+  position: relative;
+  left: -30px;
+}
+
+/* =======================================
 DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
-============== */
+========================================== */
 
 @media (min-width: 720px) {
   .mobile {
@@ -629,6 +710,10 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
   .diver_ {
     width: 70%;
   }
+  .footer_wrap {
+    display: flex;
+    padding: 0 20px;
+  }
 }
 /* =======
 DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
@@ -646,11 +731,18 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
   .enter_email {
     width: 50%;
   }
+  .footer_wrap {
+    display: flex;
+    padding: 0 100px;
+  }
+  .newsletter_ p {
+    width: 70%;
+  }
   .new_banner {
     position: static;
     height: 460px;
     margin-top: 70px;
-    background: url(../../images/.png) no-repeat center center/cover;
+    /* background: url(../../images/.png) no-repeat center center/cover; */
   }
   .our_services {
     padding: 40px 50px 20px 50px;
