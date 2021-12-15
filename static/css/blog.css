@@ -541,7 +541,7 @@ FOOTER
   padding: 20px;
   /* width: 385px;  */
   overflow-x: hidden;
-  margin: 30px 0;
+  margin: 30px 5px;
   background-color: var(--color-white);
 }
 .review_cards p {
@@ -580,7 +580,7 @@ FOOTER
   letter-spacing: 0.02em;
 }
 .carousel_layout {
-  border-top: 3px solid blue;
+  /* border-top: 3px solid blue; */
   position: relative;
   width: 355px;
   height: 400px;
@@ -591,7 +591,7 @@ FOOTER
   left: 0;
   display: grid;
   pointer-events: none;
-  border-bottom: 3px solid red;
+  /* border-bottom: 3px solid red; */
   grid-template-columns: repeat(4, 355px);
   grid-gap: 50px;
   overflow-x: hidden;
@@ -655,7 +655,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
   }
 
   .illustration_container {
-    width: 320px;
+    width: 550px;
     height: 270px;
     margin-bottom: 40px;
     padding: 30px 20px 10px 135px;
@@ -767,6 +767,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
   .people_box {
     width: 50%;
     padding: 50px 30px;
+  }
 }
 
 @media (min-width: 764px) {
@@ -799,6 +800,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     width: 60%;
   }
 }
+
 @media (min-width: 1025px) {
   .enter_email {
     width: 50%;
@@ -889,9 +891,10 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     width: 70%;
   }
   .people_box {
-    width: 50%;
-    padding: 50px 30px;
-    background-color: yellowgreen;
+    width: 60%;
+    padding: 50px 50px 30px 100px;
+    background-color: #f4f4f4;
+    z-index: 1;
   }
   .cells_container {
     position: absolute;
@@ -905,7 +908,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
   .carousel_layout {
     position: relative;
     width: 1000px;
-    height: 450px;
+    /* height: 450px; */
   }
   .review_cards p {
     font-weight: 600;
@@ -915,7 +918,20 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
   }
   .evidences {
     display: flex;
-    padding: 0 0 20px 50px;
+    padding: 30px 0 20px 0px;
+    background: #f4f4f4;
     justify-content: space-between;
+  }
+}
+
+/* =======
+DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
+============== */
+@media (min-width: 1124px) {
+  .illustration_container {
+    width: 500px;
+    height: 270px;
+    padding: 50px 20px 10px 135px;
+    margin-left: 30px;
   }
 }
