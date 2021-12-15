@@ -593,7 +593,7 @@ FOOTER
   pointer-events: none;
   /* border-bottom: 3px solid red; */
   grid-template-columns: repeat(4, 355px);
-  grid-gap: 50px;
+  grid-gap: 20px;
   overflow-x: hidden;
 }
 .review_cards p {
@@ -765,7 +765,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     width: 70%;
   }
   .people_box {
-    width: 50%;
+    width: 60%;
     padding: 50px 30px;
   }
 }
@@ -902,7 +902,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     left: 0;
     display: grid;
     grid-template-columns: repeat(4, 350px);
-    grid-gap: 50px;
+    grid-gap: 20px;
     overflow-x: hidden;
   }
   .carousel_layout {
