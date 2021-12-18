@@ -1,5 +1,6 @@
 const carouselContainer = document.querySelector(".carousel_layout");
 const cards = document.querySelector(".cells_container");
+const slideTestimony = document.querySelectorAll("review_cards");
 
 // Keep track of users mouse
 let isPressedDown = false;

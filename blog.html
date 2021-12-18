@@ -50,6 +50,10 @@
     <link rel="stylesheet" href="static/css/tech-diversity.css" />
     <link rel="stylesheet" href="static/css/custom.css" />
     <link rel="stylesheet" href="static/css/blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
     <link rel="shortcut icon" href="static/favicon.png" />
 
     <link href="/static/styles/github.css" rel="stylesheet" />
@@ -224,7 +228,7 @@
     <!-- ========
 OUR SERVICES
 ========= -->
-    <section class="our_services change_section_top">
+    <section class="our_services new_container change_section_top">
       <h4>Our Services</h4>
       <p>
         Every month, we provide new courses and skill resources needed to best
@@ -266,7 +270,7 @@ OUR SERVICES
         <div class="illustration_container">
           <!--Web Design-->
           <div class="illustration">
-            <img src="images/grahics.png" alt="web-design" />
+            <img src="images/service3.svg" alt="web-design" />
           </div>
           <h4>MARKETING</h4>
           <p>
@@ -280,7 +284,7 @@ OUR SERVICES
         <div class="illustration_container">
           <!--Web Design-->
           <div class="illustration">
-            <img src="images/grahics.png" alt="web-design" />
+            <img src="images/service4.svg" alt="web-design" />
           </div>
           <h4>UIUX</h4>
           <p>
@@ -294,7 +298,7 @@ OUR SERVICES
         <div class="illustration_container">
           <!--Web Design-->
           <div class="illustration">
-            <img src="images/grahics.png" alt="web-design" />
+            <img src="images/service5.svg" alt="web-design" />
           </div>
           <h4>DATA ANALYSIS</h4>
           <p>
@@ -310,7 +314,7 @@ OUR SERVICES
     <!-- ===========
   FEATURED POSTS
   ============== -->
-    <section class="featured_posts change_section_top">
+    <section class="featured_posts new_container change_section_top">
       <h2>Featured Posts</h2>
       <p>
         Hendrerit justo, ornare fermentum aliquam, sagittis ipsum. Quis
@@ -372,9 +376,9 @@ OUR SERVICES
       </div>
     </section>
 
-    <!-- ================
+    <!-- ========================
   OUR CORE VALUES HAS 2 SECTIONS BECAUSE THE DESKTOP VERSION IS DIFFERENT
-=================== -->
+=================================== -->
     <section class="container change_section_top on_desktop">
       <h2>Our Core Values</h2>
 
@@ -392,7 +396,7 @@ OUR SERVICES
 
       <div class="_values">
         <div class="learn">
-          <img src="images/skull.png" alt="" />
+          <img src="images/Connect1.svg" alt="" />
 
           <h3>Connect</h3>
           <p>
@@ -404,7 +408,7 @@ OUR SERVICES
 
       <div class="_values">
         <div class="learn">
-          <img src="images/skull.png" alt="" />
+          <img src="images/analysis.svg" alt="" />
 
           <h3>Elevate</h3>
           <p>Finding your voice (skills) to inspire others</p>
@@ -413,7 +417,7 @@ OUR SERVICES
     </section>
 
     <!-- ANOTHER CORE VALUES -->
-    <section class="desktop_value">
+    <section class="desktop_value new_container">
       <h2>Our Core Values</h2>
 
       <div class="_flex-box">
@@ -431,7 +435,7 @@ OUR SERVICES
           </div>
 
           <div class="_cores-img">
-            <img src="images/skull.png" alt="" />
+            <img src="images/Connect1.svg" alt="" />
 
             <span class="_learn-cap">
               <h4>Learn</h4>
@@ -443,7 +447,7 @@ OUR SERVICES
           </div>
 
           <div class="_cores-img">
-            <img src="images/skull.png" alt="" />
+            <img src="images/analysis.svg" alt="" />
 
             <span class="_learn-cap">
               <h4>Learn</h4>
@@ -476,6 +480,7 @@ OUR SERVICES
       </div>
 
       <!-- VANILLA CAROUSEL -->
+
       <div class="carousel_layout">
         <div class="cells_container">
           <div class="review_cards">
@@ -583,11 +588,26 @@ OUR SERVICES
             </div>
           </div>
         </div>
+
+        <!-- Carousel Dots -->
+        <div class="dots_button">
+          <div>
+            <div class="navigation_dots">
+              <div class="single_dots"></div>
+              <div class="single_dots current_card"></div>
+              <div class="single_dots"></div>
+            </div>
+            <div class="dots_btn">
+              <img src="images/without_color.svg" class="prev-btn" />
+              <img src="images/with_color.svg" class="next-btn" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- BLOG POST -->
-    <section class="blog_posts">
+    <section class="blog_posts new_container">
       <h2>Blog Posts</h2>
 
       <div class="blog_box">
@@ -663,7 +683,7 @@ OUR SERVICES
     </section>
 
     <!-- NEWSLETTER -->
-    <section class="newsletter_">
+    <section class="newsletter_ new_container">
       <div class="diver_">
         <h2>Subscribe to Newsletter</h2>
         <p>
@@ -678,7 +698,7 @@ OUR SERVICES
     </section>
 
     <!-- FOOTER -->
-    <section class="footer_ change_section_top">
+    <section class="footer_ new_container change_section_top">
       <div class="footer_wrap">
         <div class="f_footer">
           <h5>Instincthub</h5>
@@ -840,7 +860,12 @@ OUR SERVICES
     <script src="static/vendor/%40fancyapps/fancybox/jquery.fancybox.min.js"></script>
     <script src="static/js/front.js"></script>
     <script src="static/js/carousel.js"></script>
+    <script src="static/js/on-click_carousel.js"></script>
     <script src="/static/js/highlight.pack.js"></script>
+
+    <!-- Minified Jquery for testimonial slider -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
     </script>
