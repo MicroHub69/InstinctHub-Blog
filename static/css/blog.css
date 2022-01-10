@@ -105,6 +105,24 @@ body {
   margin: 0 0 20px 0;
 }
 
+.owl-dots {
+  margin-top: 10px;
+  text-align: center;
+}
+.owl-dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  outline: 0;
+  border-radius: 50%;
+  background: rgba(51, 51, 51, 0.3) !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.owl-dot:hover,
+.owl-dot.active {
+  background: rgba(51, 51, 51, 0.8) !important;
+}
 /* =========
 CORE VALUES
 ============ */
@@ -175,7 +193,7 @@ COURSES OFFERED
   letter-spacing: 0.014em;
 }
 .offered {
-  margin-top: 110px;
+  margin-top: 80px;
 }
 .illustration_container {
   width: 100%;
@@ -489,7 +507,9 @@ FOOTER
 }
 
 .evidences {
+  position: relative;
   padding: 0 15px;
+  /* height: 720px; */
 }
 .evidences h1 {
   /* font-family: Montserrat; */
@@ -542,10 +562,16 @@ FOOTER
   box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.14), 0px 2px 6px rgba(0, 0, 0, 0.14);
   border-radius: 5px;
   padding: 20px;
-  /* width: 385px;  */
+
   overflow-x: hidden;
   margin: 30px 5px;
   background-color: var(--color-white);
+}
+.carousel-hidden {
+  display: none;
+}
+.visible_item {
+  display: block;
 }
 .review_cards p {
   margin-bottom: 30px;
@@ -581,21 +607,12 @@ FOOTER
   letter-spacing: 0.02em;
 }
 .carousel_layout {
-  /* border-top: 3px solid blue; */
   position: relative;
-  width: 355px;
   height: auto;
 }
 .cells_container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: grid;
-  pointer-events: none;
-  /* border-bottom: 3px solid red; */
-  grid-template-columns: repeat(4, 355px);
-  grid-gap: 20px;
-  overflow-x: hidden;
+  max-width: 1200px;
+  margin: auto;
 }
 .review_cards p {
   font-weight: 600;
@@ -615,25 +632,33 @@ FOOTER
   margin: 0 15px;
 }
 .single_dots {
-  background-color: #333333;
-  height: 16px;
-  margin: 0 8px;
-  border: 2px solid #000;
-  width: 16px;
+  background: rgba(51, 51, 51, 0.5);
+  height: 15px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+  width: 15px;
   border-radius: 50%;
   cursor: pointer;
   transition: 400ms;
 }
 .single_dots.current_card {
-  background-color: var(--color-light);
+  background: rgba(51, 51, 51, 0.8);
 }
-.prev-btn {
+#prev-btn {
+  cursor: pointer;
   margin-right: 20px;
 }
 .dots_button {
-  padding-top: 380px;
+  position: absolute;
+  bottom: 0;
+  right: 30%;
   display: flex;
   justify-content: center;
+}
+.owl-carousel .owl-item img {
+  width: auto !important;
+  display: inline !important;
 }
 
 /* =======================================
@@ -785,6 +810,13 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     width: 60%;
     padding: 50px 30px;
   }
+  .dots_button {
+    position: absolute;
+    bottom: 20px;
+    right: 30%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 764px) {
@@ -811,11 +843,21 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     justify-content: space-between;
     padding: 0 20px;
   }
+  .evidences {
+    padding: 20px 15px;
+  }
 }
 /* =======
 DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
 ============== */
 @media (max-width: 1024px) {
+  .owl-dot {
+    width: 8px;
+    height: 8px;
+  }
+  .owl-dots {
+    margin: 0 6px;
+  }
   .build_ {
     width: 450px;
     object-fit: contain;
@@ -861,9 +903,9 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     line-height: 60px;
     padding: 0 150px;
   }
-  .offered {
+  /* .offered {
     padding: 0;
-  }
+  } */
   .core_values {
     padding: 70px 100px;
   }
@@ -924,18 +966,10 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     background-color: #f4f4f4;
     z-index: 1;
   }
-  .cells_container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 350px);
-    grid-gap: 20px;
-    overflow-x: hidden;
-  }
+
   .carousel_layout {
     position: relative;
-    width: 1000px;
+    width: 600px;
     padding-right: 30px;
   }
   .review_cards p {
@@ -945,6 +979,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     letter-spacing: 0.01em;
   }
   .evidences {
+    /* height: 540px; */
     display: flex;
     padding: 30px 0 20px 0px;
     background: #f4f4f4;
@@ -959,6 +994,24 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
 DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
 ============== */
 @media (min-width: 1124px) {
+  .newsletter_ {
+    padding: 50px;
+  }
+  .newsletter_ h2 {
+    margin-top: 10px;
+  }
+  .newsletter_ input {
+    margin-bottom: 10px;
+  }
+  .our_services h4 {
+    margin-top: 30px;
+  }
+  .our_services p {
+    width: 75%;
+  }
+  /* .review_card{
+    width: 60%;
+  } */
   .new_container {
     padding: 20px 60px;
   }
