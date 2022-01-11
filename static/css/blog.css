@@ -983,6 +983,9 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     margin: 0;
     line-height: 60px;
     padding: 0 150px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
   }
   /* .offered {
     padding: 0;
