@@ -127,7 +127,13 @@ body {
 CORE VALUES
 ============ */
 .core_values {
-  padding: 50px 70px 20px 70px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+.d-bottom {
+  padding: 60px 0 40px 0;
 }
 .desktop_value {
   display: none;
@@ -142,6 +148,7 @@ CORE VALUES
 }
 .instructors {
   display: flex;
+  gap: 25px;
 }
 .instructor_text {
   margin-left: 5px;
@@ -563,7 +570,6 @@ FOOTER
   box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.14), 0px 2px 6px rgba(0, 0, 0, 0.14);
   border-radius: 5px;
   padding: 20px;
-
   overflow-x: hidden;
   margin: 30px 5px;
   background-color: var(--color-white);
@@ -661,12 +667,58 @@ FOOTER
   width: auto !important;
   display: inline !important;
 }
+.owl-nav {
+  position: absolute;
+  left: 33%;
+  margin-top: 30px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+}
 .letter_wrap {
   max-width: 670px;
 }
 .tie_wrapper {
   max-width: 1440px;
   margin: 0 auto;
+}
+.owl-nav .owl-next:hover .c_change path,
+.owl-nav .owl-prev:hover .c_change path {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  fill: var(--color-white) !important;
+}
+.nextIcon:hover,
+.nextIcon:active,
+.prevIcon:hover,
+.prevIcon:active {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid var(--color-white) !important;
+  background-color: var(--color-purple) !important;
+}
+.prevIcon {
+  /* background-color: var(--color-purple); */
+  border: 3px solid var(--black);
+  width: 55px;
+  height: 55px;
+  transition: 0.3s ease;
+  padding: 10px;
+  margin-right: 25px;
+  border-radius: 50%;
+}
+.nextIcon {
+  /* background-color: var(--color-purple); */
+  border: 3px solid var(--black);
+  width: 55px;
+  height: 55px;
+  transition: 0.3s ease;
+  padding: 10px;
+  margin-right: 25px;
+  border-radius: 50%;
 }
 /* =======================================
 DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
@@ -836,6 +888,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
   .new_container {
     padding: 20px 40px;
   }
+
   .newsletter_ h2 {
     font-size: 35px;
   }
@@ -863,10 +916,26 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
 /* =======
 DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
 ============== */
+@media (min-width: 1024px) {
+  .special_section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .review_cards {
+    width: 335px;
+  }
+}
 @media (max-width: 1024px) {
   .owl-dot {
     width: 8px;
     height: 8px;
+  }
+  .evidences {
+    position: relative;
+    padding: 20px 15px 70px 15px;
+    height: 650px;
+    height: auto;
   }
   .owl-dots {
     margin: 0 6px;
@@ -890,6 +959,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     width: 100%;
   }
 }
+
 @media (min-width: 1025px) {
   .enter_email {
     width: 50%;
@@ -921,7 +991,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     padding: 70px 60px;
   }
   .illustration_container {
-    width: 500px;
+    width: 45%;
     height: 270px;
     padding: 50px 20px 10px 135px;
     margin-left: 30px;
@@ -1010,12 +1080,21 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
   .newsletter_ {
     padding: 50px;
   }
+  .instructors {
+    display: flex;
+    gap: 20px;
+  }
+  .core_values img {
+    width: 100px;
+    height: 100px;
+    top: -20px;
+  }
   .owl-dots {
     position: absolute;
   }
-  .review_cards {
+  /* .review_cards {
     width: 335px;
-  }
+  } */
   .newsletter_ h2 {
     margin-top: 10px;
   }
@@ -1038,9 +1117,14 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 930PX
     width: 24%;
   }
   .illustration_container {
-    width: 500px;
+    width: 42%;
     height: 270px;
     padding: 50px 20px 10px 135px;
     margin-left: 30px;
+  }
+  .owl-nav {
+    position: absolute;
+    left: -25%;
+    margin-top: -10px;
   }
 }
