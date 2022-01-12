@@ -159,8 +159,8 @@ CORE VALUES
   letter-spacing: 0.02em;
 }
 .instructor_text p {
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -187,7 +187,7 @@ COURSES OFFERED
   letter-spacing: 0.014em;
 }
 .illustration_container h4 {
-  font-weight: bold;
+  font-weight: 800;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.018em;
@@ -459,6 +459,7 @@ FOOTER
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
+  margin-bottom: 17px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -673,9 +674,6 @@ FOOTER
   margin-top: 30px;
 }
 
-.owl-nav .owl-prev,
-.owl-nav .owl-next {
-}
 .letter_wrap {
   max-width: 670px;
 }
@@ -729,7 +727,32 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     line-height: 40px;
   }
 }
+
+@media (max-width: 720px) {
+  .instructors_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  .instructors {
+    width: 50%;
+    gap: 15px;
+  }
+}
+@media (max-width: 520px) {
+  .instructors {
+    width: 100%;
+  }
+}
 @media (min-width: 720px) {
+  .instructors_wrap {
+    max-width: 1440px;
+  }
+
   .new_banner {
     position: static;
     height: 460px;
@@ -784,14 +807,9 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     display: flex;
     justify-content: space-between;
     padding: 70px 40px;
+    margin-top: 20px;
   }
 
-  /* .illustration_container {
-    height: 270px;
-    margin-bottom: 40px;
-    padding: 30px 20px 10px 135px;
-    margin-left: 30px;
-  } */
   .illustration {
     transform: translate(0);
     left: -60px;
