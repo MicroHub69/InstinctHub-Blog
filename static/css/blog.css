@@ -757,7 +757,7 @@ DECLARATION FOR IPAD MIN-WIDTH FROM 768PX
     position: static;
     height: 460px;
     margin-top: 70px;
-    background: url(../../images/Ipad\ dummy.png) no-repeat center center/cover;
+    background: url(../../images/banner.png) no-repeat center center/cover;
   }
   .illustration_container {
     width: 85%;
