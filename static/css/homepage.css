@@ -684,9 +684,6 @@ body {
   margin-top: 30px;
 }
 
-.owl-nav .owl-prev,
-.owl-nav .owl-next {
-}
 .letter_wrap {
   max-width: 670px;
 }
@@ -792,11 +789,11 @@ body {
     height: 270px;
     margin-bottom: 40px;
     padding: 30px 20px 10px 135px;
-    margin-left: 30px;
+    margin-left: 35px;
   }
   .illustration {
     transform: translate(0);
-    left: -60px;
+    left: -90px;
     top: 30px;
   }
   .offered {
@@ -804,6 +801,7 @@ body {
     padding: 0 20px;
     justify-content: space-between;
     display: flex;
+    max-width: 1200px;
   }
   .featured_pic {
     display: flex;
@@ -1141,8 +1139,8 @@ body {
   .illustration_container {
     width: 42%;
     height: 270px;
-    padding: 16px 20px 10px 135px;
-    margin-left: 30px;
+    padding: 16px 20px 10px 115px;
+    margin-left: 50px;
   }
   .owl-nav {
     position: absolute;
