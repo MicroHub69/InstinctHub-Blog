@@ -1,0 +1,281 @@
+/* ================
+NEW-BANNER 
+====================*/
+
+.new-banner{
+    background: url(../../images/mobile-background.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    height: auto;
+    padding: 30px 20px;
+}
+.new-banner h1 {
+    padding-top: 100px;
+    color: #fff;
+}
+.new-banner p{
+    margin-top: 20px;
+    color: #fff;
+}
+.button-flex{
+    text-align: center;
+}
+.button-flex button{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    color: #00838f;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid transparent;  
+}
+
+.button-flex a{
+    text-decoration: underline;
+    color: #fff;
+    justify-content: center;
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.button-flex img{
+    width: 50px;
+    height: 50px;
+}
+.mail-form{
+    box-shadow: 0px 0px 23px 0px #7c8e9b38;
+    height: auto;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.top-label{
+    background-color: #AC557D;
+    height: 69px;
+    color: #fff;
+    Padding : 25px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.label-input{
+    padding: 20px 15px;
+}
+.label-input label{
+    display: block;
+    font-weight: 600;
+    color: #333333;
+    justify-content: center;
+    font-size: 17px;
+}
+.label-input input[type=checkbox]{
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    float: left;
+    margin-top: 21px;
+    outline: none;
+    height: 20px;
+}
+.label-input input{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #DCDCDC;
+    border-radius: 5px;
+}
+.checkbox-label{
+    margin-top: 20px;
+    margin-left: 27px;
+}
+.label-input button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #00838f;
+    font-size: 18px;
+    border: 1px solid transparent;
+    font-weight: 700;
+}
+.alt-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.alt-icons img{
+    margin-top: 10px;
+    object-fit: cover;
+    width: 25px;
+    margin-left: 5px;
+}
+.google-icon1{
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 23px 0px #7c8e9b38;
+}
+.google-icon{
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 5px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 0px 23px 0px #7c8e9b38;
+}
+.google-icon img{
+    width:50px;
+    object-fit: cover;
+}
+.mobile-submit{
+    display: none;
+}
+
+
+
+@media(max-width: 550px){
+  .button-flex a{
+    margin-top: 30px;
+  }
+}
+
+
+@media(min-width: 550px){
+    .new-banner{
+        background: url(../../images/Background\ tab.png);
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        height: auto;
+        padding: 50px 40px;
+    }
+    .new-banner h1,.new-banner p{
+        width: 623px;
+    }
+    .button-flex{
+        width: 623px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .button-flex button{
+        width: 40%;
+        margin-top: 40px;
+        padding: 10px 5px;
+        color: #00838f;
+        font-size: 17px;
+        font-weight: 700;
+        border-radius: 5px;
+        border: 1px solid transparent;  
+    }
+}
+
+
+@media(min-width: 650px){
+    .desktop-submit button{
+        display: block;
+        margin-top: 0px;
+        width: 30%;
+    }
+    .desktop-submit{
+        display: flex;
+    }
+    .mail-form{
+        box-shadow: 0px 0px 23px 0px #7c8e9b38;
+        height: auto;
+        width: 660px;
+        height: 399px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: #fff;
+        top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .label-input button{
+        width: 45%;
+    }
+    .google-icon img {
+        width: 40px;
+        object-fit: cover;
+    }
+   
+    .google-icon1{
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .google-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .label-input {
+        padding: 40px 20px;
+    }
+}
+
+
+@media(min-width: 1025px){
+    .new-banner{
+        background: url(../../images/biggest.png);
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+        height: auto;
+        padding: 50px 100px;
+    }
+    .mail-form{
+        box-shadow: 0px 0px 23px 0px #7c8e9b38;
+        height: auto;
+        width: 408px;
+        height: 360px;
+        position: absolute;
+        margin: 0 auto;
+        margin-top: 50px;
+        right: 200px;
+        background-color: #fff;
+        top: 110px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .button-flex {
+        width: 500px;
+    }
+    .mobile-submit{
+        display: block;
+    }
+    .desktop-submit button {
+        display: none;
+    }
+    .new-banner h1,.new-banner p{
+        width: 500px;
+    }
+    .submit-icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .label-input {
+        padding: 20px 15px;
+    }
+}
+
+/* ================
+NEW-BANNER ENDS....
+====================*/
